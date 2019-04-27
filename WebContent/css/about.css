@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Kestoy';
+  src:url("../assets/Kestoy Selfie.ttf");
+}
+html{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background: url("../assets/bg.jpg") no-repeat left center fixed;
+  background-color:black;
+  background-size: cover;
+}
+.header{
+  background-color:#64CC3D;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar{
+  border-bottom:3px solid rgba(201,238,76,0.5);
+}
+.logo{
+  width:40px;
+  height:auto;
+}
+.kestoy{
+  font-family: 'Kestoy';
+}
+.logoname{
+  font-family: 'Kestoy';
+  font-size:30px;
+  line-height: 30px;
+}
+
+
+#login-page{
+  border: 2px solid red;
+  float:left;
+  width: 20%;
+  background-color: powderblue;
+  margin-left: 58%;
+  margin-top: 15%;
+  padding-top: 3%;
+}
+
+#button{
+  font-family: 'Kestoy';
+  float:left;
+  margin-left:43%;
+}
+
+#email{
+  font-family: 'Kestoy';
+  float:left;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+#pwd{
+  font-family: 'Kestoy';
+  float:left;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+.container-fluid{
+  margin-top:10%;
+}
+
+#mag{
+  float:left;
+  margin-left: 40%;
+  margin-top: 3%;
+  width:10%;
+  border: 5px solid red;
+
+}
+
+#bookmark{
+  float:left;
+  width:100%;
+  border: 5px solid red;
+
+}
+
+#gear{
+  float:left;
+  width:100%;
+  border: 5px solid red;
+
+}
+
+.b{
+  font-size: 20px;
+  margin-left: -10%;
+  margin-top: 8%;
+}
+
+#top{
+  float:left;
+  font-family: 'Kestoy';
+  background-color:rgba(100, 204, 61, 1);
+  margin-left: 35%;
+  margin-top:5%;
+  font-size: 50px;
+  border-radius: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
+
+#about-us{
+  float:left;
+  width:30%;
+  margin-left: 35%;
+  background-color: white;
+}
+
+#title-1{
+  float:left;
+}
+
+#title-2{
+  float:left;
+  border: 5px solid red;
+}
+
+.flex-container{
+  float:left;
+  border: 5px solid black;
+  background-color: white;
+
+}
+
+.lol{
+  float:left;
+  max-width:100%;
+  max-height:100%;
+}
+
+#harshil{
+  float:left;
+  border: 2px solid green;
+  width:30%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+
+#caroline{
+  float:right;
+  border: 2px solid green;
+  width:30%;
+  margin-bottom: 20%;
+
+}
+
+#matt{
+  float:left;
+  border: 2px solid green;
+  margin-right: 10%;
+  width:30%;
+}
+
+#james{
+  float:right;
+  border: 2px solid green;
+  width:30%;
+}

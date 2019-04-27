@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Kestoy';
+  src:url("../assets/Kestoy Selfie.ttf");
+}
+html{
+  padding:0;
+  margin:0;
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+  background: url("../assets/bg.jpg") no-repeat left center fixed;
+  background-color:black;
+  background-size: cover;
+}
+.header{
+  background-color:#64CC3D;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar{
+  border-bottom:3px solid rgba(201,238,76,0.5);
+}
+.logo{
+  width:40px;
+  height:auto;
+}
+.kestoy{
+  font-family: 'Kestoy';
+}
+.logoname{
+  font-family: 'Kestoy';
+  font-size:30px;
+  line-height: 30px;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 480px;
+  margin: 10px auto 20px;
+  margin-top: 100px;
+  top: 30px;
+
+}
+.col1{
+  background-color: transparent;
+  width: 53%;
+  position: relative;
+  top: 50px;
+}
+
+.col1-content1, .col1-content2, .col1-content3{
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.col1-content1 p, .col1-content2 p, .col1-content3 p{
+  padding-left: 20px;
+  position: relative;
+  top: -10px;
+}
+
+.col2{
+  background-color: #7BF2CE;
+  border: 5px double #64CC3D;
+  border-radius: 0px 40px 0px 40px;
+  width: 47%;
+  color: white;
+}
+.loginIcon{
+  position: relative;
+}
+
+.loginIcon{
+  width: 110px;
+  height: 110px;
+  position: relative;
+  display: block;
+  margin: 10px auto 20px;
+  top: -65px;
+}
+#loginText{
+  align: center;
+  text-align: center;
+}
+.loginTextText{
+  position: relative;
+  top: -85px;
+  font-size: 50px;
+  font-style: italic;
+}
+
+.form{
+  font-size: 20px;
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  flex-direction:column;
+}
+.username, .password{
+  display: block;
+  margin: 10px auto 20px;
+}
+.password{
+  position: relative;
+  bottom: 34px;
+}
+
+
+.submitButton{
+  position: relative;
+  display: block;
+  margin: 10px auto 20px;
+  width: 150px;
+  border: 2px solid #64CC3D;
+  color: #64CC3D;
+  bottom: 50px;
+  border-radius: 10px;
+}
+#formText{
+  margin-left: 60px;
+}
+#formText2{
+  margin-left: 20px;
+}
+
+
+input{
+  border: 2px solid #64CC3D;
+  border-radius: 10px;
+  padding-left: 15px;
+  color: #64CC3D;
+}
+::placeholder{
+  color: #64CC3D;
+}
+input[type=text]:focus{
+  box-shadow: 0 0 0 2pt #64CC3D;
+  outline:0;
+}
+input[type=password]:focus{
+  box-shadow: 0 0 0 2pt #64CC3D;
+  outline:0;
+}
+.submitButton:focus {
+  box-shadow: 0 0 0 2pt #64CC3D;
+  outline:0;
+}
+
+
+
+input {
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.75rem;
+}
+
+input:placeholder-shown + label {
+    opacity: 0;
+    transform: translateY(1rem);
+}
+
+input:valid {
+    border-color: var(--color-primary);
+    background-image: url("data:image/svg+xml,%3Csvg width='45px' height='34px' viewBox='0 0 45 34' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate%28-56.000000, -59.000000%29' fill='%232EEC96'%3E%3Cpolygon points='70.1468531 85.8671329 97.013986 59 100.58042 62.5664336 70.1468531 93 56 78.8531469 59.5664336 75.2867133'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+input:invalid {
+    border-color: var(--color-error);
+    background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate%28-128.000000, -59.000000%29' fill='%23F44336'%3E%3Cpolygon points='157.848404 61.9920213 145.980053 73.8603723 157.848404 85.7287234 154.856383 88.7207447 142.988032 76.8523936 131.119681 88.7207447 128.12766 85.7287234 139.996011 73.8603723 128.12766 61.9920213 131.119681 59 142.988032 70.8683511 154.856383 59'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+input:invalid:focus {
+    border-color: var(--color-error);
+}
+
+input:invalid + .help-text {
+    color: var(--color-error);
+}
+
+input[type='checkbox'] + label {
+    user-select: none;
+}

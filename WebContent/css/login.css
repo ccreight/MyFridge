@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'Kestoy';
+  src:url("../assets/Kestoy Selfie.ttf");
+}
+html{
+  padding:0;
+  margin:0;
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+  background: url("../assets/bg.jpg") no-repeat left center fixed;
+  background-color:black;
+  background-size: cover;
+}
+.header{
+  background-color:#64CC3D;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar{
+  border-bottom:3px solid rgba(201,238,76,0.5);
+}
+.logo{
+  width:40px;
+  height:auto;
+}
+.kestoy{
+  font-family: 'Kestoy';
+}
+.logoname{
+  font-family: 'Kestoy';
+  font-size:30px;
+  line-height: 30px;
+}
+
+
+#login-page{
+  border: 2px solid red;
+  float:left;
+  width: 20%;
+  background-color: powderblue;
+  margin-left: 58%;
+  margin-top: 15%;
+  padding-top: 3%;
+}
+
+#button{
+  font-family: 'Kestoy';
+  float:left;
+  margin-left:43%;
+}
+
+#email{
+  font-family: 'Kestoy';
+  float:left;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+#pwd{
+  font-family: 'Kestoy';
+  float:left;
+  font-size: 20px;
+  margin-left: 20%;
+}
+
+
+#mag{
+  float:left;
+  margin-left: 40%;
+  margin-top: 3%;
+  width:20%;
+  border: 5px solid red;
+
+}
+
+#bookmark{
+  float:left;
+  width:20%;
+  margin-top: 40%;
+  margin-left: -20%;
+  border: 5px solid red;
+
+}
+
+#gear{
+  float:left;
+  width:20%;
+  border: 5px solid red;
+  margin-top: 77%;
+  margin-left: -20%;
+
+}
+
+.b{
+  font-size: 20px;
+  margin-left: -10%;
+  margin-top: 8%;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 450px;
+  margin: 10px auto 20px;
+  margin-top: 100px;
+  top: 30px;
+
+}
+.col1{
+  background-color: transparent;
+  width: 53%;
+  position: relative;
+  top: 50px;
+}
+
+.col1-content1, .col1-content2, .col1-content3{
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.col1-content1 p, .col1-content2 p, .col1-content3 p{
+  padding-left: 20px;
+  position: relative;
+  top: -10px;
+}
+
+.col2{
+  background-color: #7BF2CE;
+  border: 5px double #64CC3D;
+  border-radius: 0px 40px 0px 40px;
+  width: 47%;
+  color: white;
+}
+.loginIcon{
+  position: relative;
+}
+
+.loginIcon{
+  width: 110px;
+  height: 110px;
+  position: relative;
+  display: block;
+  margin: 10px auto 20px;
+  top: -65px;
+}
+#loginText{
+  align: center;
+  text-align: center;
+}
+.loginTextText{
+  position: relative;
+  top: -85px;
+  font-size: 50px;
+  font-style: italic;
+}
+.signInForm{
+  font-size: 20px;
+  margin: 20px;
+  position: relative;
+  bottom: 100px;
+}
+.username, .password{
+  display: block;
+  margin: 10px auto 20px;
+  position: relative;
+  top: -10px;
+}
+.passwordText{
+  position: relative;
+  top: -20px;
+}
+.password{
+  top: -30px;
+}
+.submitButton{
+  position: relative;
+  display: block;
+  margin: 10px auto 20px;
+  width: 150px;
+  border: 2px solid #64CC3D;
+  color: #64CC3D;
+  bottom: 10px;
+  border-radius: 10px;
+}
+input{
+  border: 2px solid #64CC3D;
+  border-radius: 10px;
+  padding-left: 15px;
+  color: #64CC3D;
+}
+::placeholder{
+  color: #64CC3D;
+}
+input[type=text]:focus{
+  box-shadow: 0 0 0 2pt #64CC3D;
+  outline:0;
+}
+input[type=password]:focus{
+  box-shadow: 0 0 0 2pt #64CC3D;
+  outline:0;
+}
+.submitButton:focus {
+  box-shadow: 0 0 0 2pt #64CC3D;
+  outline:0;
+}
+
+
+.registerForm{
+  font-size: 20px;
+  margin: 20px;
+  position: relative;
+  bottom: 100px;
+}
+
+
+
+
+input {
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 0.75rem;
+}
+
+input:placeholder-shown + label {
+    opacity: 0;
+    transform: translateY(1rem);
+}
+
+
+input:required + .help-text::before {
+    content: '*Required';
+}
+
+
+
+input:invalid:focus {
+    border-color: var(--color-error);
+}
+
+input:invalid + .help-text {
+    color: var(--color-error);
+}
+
+input[type='checkbox'] + label {
+    user-select: none;
+}

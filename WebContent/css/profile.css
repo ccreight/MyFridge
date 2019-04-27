@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Kestoy';
+  src:url("../assets/Kestoy Selfie.ttf");
+}
+html{
+  padding:0;
+  margin:0;
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+  background: url("../assets/bg.jpg") no-repeat left center fixed;
+  background-color:black;
+  background-size: cover;
+}
+.header{
+  background-color:#64CC3D;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar{
+  border-bottom:3px solid rgba(201,238,76,0.5);
+}
+.logo{
+  width:40px;
+  height:auto;
+}
+.kestoy{
+  font-family: 'Kestoy';
+}
+.logoname{
+  font-family: 'Kestoy';
+  font-size:30px;
+  line-height: 30px;
+}
+.container{
+  width: 650px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.profileText{
+  font-size: 50px;
+  border: 2px double white;
+  font-family: 'Titillium Web';
+  border-radius: 40px 40px 0px 0px;
+  background-color: #64CC3D;
+  width: 650px;
+  height: 70px;
+  text-align: center;
+}
+.dropdown{
+  border: 2px solid #64CC3D;
+  background-color: white;
+  border-top-color: white;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: -18px;
+  margin: 10px auto 20px;
+  left: 9px;
+}
+.row1, .row2, .row3{
+  display: flex;
+  padding-left: 17px;
+}
+.row1 p, .row2 p, .row3 p{
+  padding-left: 15px;
+  padding-top: 23px;
+  font-size: 35px;
+}
+.img1, .img2, .img3{
+  width: 100px;
+  height: 100px;
+}

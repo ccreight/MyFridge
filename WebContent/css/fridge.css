@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Kestoy';
+  src:url("../assets/Kestoy Selfie.ttf");
+}
+html{
+  padding:0;
+  margin:0;
+  height: 100%;
+  box-sizing: border-box;
+}
+body{
+  background: url("../assets/bg.jpg") no-repeat left center fixed;
+  background-color:black;
+  background-size: cover;
+}
+.header{
+  background-color:#64CC3D;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar{
+  border-bottom:3px solid rgba(201,238,76,0.5);
+}
+.logo{
+  width:40px;
+  height:auto;
+}
+.kestoy{
+  font-family: 'Kestoy';
+}
+.logoname{
+  font-family: 'Kestoy';
+  font-size:30px;
+  line-height: 30px;
+}
+.container{
+  width: 650px;
+  height: 1000px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.fridgeText{
+  font-size: 50px;
+  border: 2px double white;
+  font-family: 'Titillium Web';
+  border-radius: 40px 40px 0px 0px;
+  background-color: #64CC3D;
+  width: 650px;
+  height: 70px;
+  text-align: center;
+}
+.dropdown{
+  border: 2px solid #64CC3D;
+  background-color: white;
+  border-top-color: white;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: -18px;
+  margin: 10px auto 20px;
+  left: 9px;
+}
+.row1, .row2, .row3{
+  display: flex;
+  padding-left: 17px;
+}
+.row1 p, .row2 p, .row3 p{
+  padding-left: 15px;
+  padding-top: 23px;
+  font-size: 35px;
+}
+.img1, .img2, .img3{
+  width: 100px;
+  height: 100px;
+}
+
+.dropdown{
+  max-width: 800px;
+  margin:auto;
+}
+.dropdown-menu{
+  background-color:red;
+  color:white;
+}
+.dropdown-item{
+  font-size:20px;
+}
+.dropdown-item:hover{
+  background-color:red;
+  cursor:pointer;
+}
+.dropdown-toggle:after{
+  content:none;
+}
+.citysearch{
+  color:white;
+  font-size:20px;
+}
+.citysearch:hover{
+  color:white;
+}
+.citysearch input{
+  padding:5px;
+  height:30px;
+  font-size: 15px;
+}
+.todoWrapper{
+  width:500px;
+  position: relative;
+  left: 12.5px;
+  margin: 10px auto 20px;
+  box-shadow: 3px 3px rgba(0,0,0,0.3);
+}
+.todoHeader{
+  background-color:#64CC3D;
+  text-align: center;
+  margin:0;
+  font-size: 35px;
+  padding-left: 10px;
+}
+.todoInput input{
+  width:100%;
+  height:40px;
+  padding-left:20px;
+  padding-right:20px;
+  border:2px solid #64CC3D;
+}
+.todoInput:focus, input:focus{
+    outline: none;
+}
+.todoList{
+  list-style-type: none;
+  padding-left: 0;
+}
+.todoList li{
+  background-color:white;
+  border-bottom:1px solid gray;
+  padding:3px;
+  cursor:pointer;
+}
+i{
+  margin-left:10px;
+  margin-right:10px;
+}
+.toggleInput:hover{
+  cursor:pointer;
+}
+.clicked{
+  font-style: italic;
+  text-decoration: line-through;
+  color:rgba(0,0,0,0.4);
+}
+.hoverEffect:hover{
+  background-color:rgba(170,170,170,0.7);
+}
